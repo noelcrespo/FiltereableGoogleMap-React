@@ -228,3 +228,14 @@ button .activeBtn .fas {
   outline: none;
 }
 
+@media (max-height: 768px) {
+  #filters-header h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .el-button {
+    padding: 8px;
+    margin: 5px auto;
+  }
+}
