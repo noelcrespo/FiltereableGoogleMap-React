@@ -17,7 +17,7 @@ export class Map extends Component {
     }
 
     componentDidUpdate(prevProps) {
-        if(!this.props.properties !== prevProps.properties)
+        if(this.props.properties !== prevProps.properties)
         {
           this.initMap();
         }
